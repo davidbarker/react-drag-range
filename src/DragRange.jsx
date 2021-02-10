@@ -228,7 +228,6 @@ export default class DragRange extends React.Component {
     if (this.props.percent)
       this.setPercent (e)
     else this.trackDelta (e)
-    window.getSelection ().removeAllRanges ()
   }
 
   handleMouseUp = (e) => {
