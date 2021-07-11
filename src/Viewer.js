@@ -1,14 +1,14 @@
 import React from "react"
 
-import DragRangeModifyEachProp from "./Examples/DragRangeModifyEachProp.jsx"
-import DragRangeTangleJS from "./Examples/DragRangeTangleJS.jsx"
-import DragRangeSimplePercent from "./Examples/DragRangeSimplePercent.jsx"
-import DragRangeHashProgressBar from "./Examples/DragRangeHashProgressBar.jsx"
-import DragRangeCssHighlight from "./Examples/DragRangeCssHighlight.jsx"
-import DragRangeAnalogStick from "./Examples/DragRangeAnalogStick.jsx"
-import DragRangeKnobControl from "./Examples/DragRangeKnobControl.jsx"
-import DragRangeSliderVertical from "./Examples/DragRangeSliderVertical.jsx"
-import DragRangeHorizontalSliders from "./Examples/DragRangeHorizontalSliders.jsx"
+import DragRangeModifyEachProp from "./Examples/DragRangeModifyEachProp.js"
+import DragRangeTangleJS from "./Examples/DragRangeTangleJS.js"
+import DragRangeSimplePercent from "./Examples/DragRangeSimplePercent.js"
+import DragRangeHashProgressBar from "./Examples/DragRangeHashProgressBar.js"
+import DragRangeCssHighlight from "./Examples/DragRangeCssHighlight.js"
+import DragRangeAnalogStick from "./Examples/DragRangeAnalogStick.js"
+import DragRangeKnobControl from "./Examples/DragRangeKnobControl.js"
+import DragRangeSliderVertical from "./Examples/DragRangeSliderVertical.js"
+import DragRangeHorizontalSliders from "./Examples/DragRangeHorizontalSliders.js"
 
 export default () => {
   const rowStyle = {

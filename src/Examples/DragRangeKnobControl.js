@@ -1,5 +1,5 @@
 import React from "react"
-import DragRange from "../DragRange.jsx"
+import DragRange from "../DragRange.js"
 
 class DragRangeImage extends React.Component {
   state = {

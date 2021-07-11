@@ -1,5 +1,5 @@
 import React from "react"
-import DragRange from "../DragRange.jsx"
+import DragRange from "../DragRange.js"
 
 class DragRangeViewer extends React.Component {
   state = {
@@ -15,14 +15,14 @@ class DragRangeViewer extends React.Component {
 
   render = () => (
     <div>
-        This is a&nbsp;
+      This is a&nbsp;
       <DragRange
         percent
         value={this.state.value}
         onChange={this.onChange.bind (this, "value")}
       >
         <span style={{ "cursor": "ew-resize", "borderBottom": "1px dotted #000" }}>
-            simple percent component
+          simple percent component
         </span>
       </DragRange>
         &nbsp;({this.state.value})

@@ -7,7 +7,7 @@
   "main": "./dist/main.js",
   "scripts": {
     "prepare": "npx npm-install-peers",
-    "dev": "NODE_ENV=development webpack serve --mode development ./src/App.jsx",
+    "dev": "NODE_ENV=development webpack serve --mode development ./src/App.js",
     "build": "webpack --mode production"
   },
   "repository": {

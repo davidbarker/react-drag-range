@@ -3,7 +3,7 @@ const packageJson = require(path.resolve(__dirname, "package.json"))
 const HtmlWebPackPlugin = require("html-webpack-plugin")
 const ESLintPlugin = require('eslint-webpack-plugin')
 
-const mainFile = "DragRange.jsx"
+const mainFile = "DragRange.js"
 
 module.exports = {
   entry: {

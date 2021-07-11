@@ -57,7 +57,6 @@
     "yoda": [2, "never", { "exceptRange": true }],
     "no-shadow-restricted-names": 2,
     "no-shadow": [2, { "builtinGlobals": true, "hoist": "all", "allow": [] }],
-    "no-use-before-define": ["error", { "functions": true, "classes": true }],
     "comma-dangle": [2, "always-multiline"],
     "comma-style": [2, "last", { "exceptions": {} }],
     "eol-last": 2,
